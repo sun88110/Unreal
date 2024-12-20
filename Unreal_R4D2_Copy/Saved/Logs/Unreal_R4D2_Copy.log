@@ -918,3 +918,91 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2024.12.20-05.26.34:250][203]AssetCheck: New page: 에셋 저장:  다수의 에셋
 [2024.12.20-05.26.34:250][203]LogContentValidation: Display: MapBuildDataRegistry /Game/Mail_BuiltData.Mail_BuiltData 유효성 검사 중
 [2024.12.20-05.26.34:250][203]LogContentValidation: Display: World /Game/Mail.Mail 유효성 검사 중
+[2024.12.20-05.27.11:075][593]LogHttp: Warning: 00000266B896B200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB1E4FFB5-4F0B-C643-4219-5E9A62C0F9B7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=63278d284606777a8a506487b27920ac%7C2bea50b9c1814730b250c1f7e0313807%7C62b47508-8b87-494f-bd26-0cab2c3f7162&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.20-05.27.11:075][593]LogHttp: Warning: 00000266B896B200: request failed, libcurl error: 35 (SSL connect error)
+[2024.12.20-05.27.11:075][593]LogHttp: Warning: 00000266B896B200: libcurl info message cache 0 (  Trying 54.146.116.1...)
+[2024.12.20-05.27.11:076][593]LogHttp: Warning: 00000266B896B200: libcurl info message cache 1 (TCP_NODELAY set)
+[2024.12.20-05.27.11:076][593]LogHttp: Warning: 00000266B896B200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.146.116.1) port 443 (#0))
+[2024.12.20-05.27.11:076][593]LogHttp: Warning: 00000266B896B200: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2024.12.20-05.27.11:076][593]LogHttp: Warning: 00000266B896B200: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2024.12.20-05.27.11:076][593]LogHttp: Warning: 00000266B896B200: libcurl info message cache 5 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.12.20-05.27.11:076][593]LogHttp: Warning: 00000266B896B200: libcurl info message cache 6 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2024.12.20-05.27.11:076][593]LogHttp: Warning: 00000266B896B200: libcurl info message cache 7 (Closing connection 0)
+[2024.12.20-05.27.11:092][594]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB1E4FFB5-4F0B-C643-4219-5E9A62C0F9B7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=63278d284606777a8a506487b27920ac%7C2bea50b9c1814730b250c1f7e0313807%7C62b47508-8b87-494f-bd26-0cab2c3f7162&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.12.20-05.27.55:296][920]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2024.12.20-05.27.55:321][920]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Mail.Mail
+[2024.12.20-05.27.55:321][920]Cmd: MAP LOAD FILE="../../../../../../Users/SCHALE/Documents/GitHub/Unreal/Unreal_R4D2_Copy/Content/Mail.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.12.20-05.27.55:321][920]LightingResults: New page: 라이팅 빌드
+[2024.12.20-05.27.55:321][920]LoadErrors: New page: 맵 로드 중: Mail.umap
+[2024.12.20-05.27.55:349][920]LogWorld: UWorld::CleanupWorld for Mail, bSessionEnded=true, bCleanupResources=true
+[2024.12.20-05.27.55:350][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.20-05.27.55:350][920]MapCheck: New page: 맵 체크
+[2024.12.20-05.27.55:350][920]LightingResults: New page: 라이팅 빌드
+[2024.12.20-05.27.55:353][920]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.20-05.27.55:355][920]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.12.20-05.27.55:359][920]LogAudio: Display: Audio Device (ID: 1) registered with world 'Mail'.
+[2024.12.20-05.27.55:359][920]LogAIModule: Creating AISystem for world Mail
+[2024.12.20-05.27.55:403][920]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.12.20-05.27.55:408][920]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.12.20-05.27.55:409][920]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.12.20-05.27.55:409][920]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.073ms.
+[2024.12.20-05.27.55:409][920]LogFileHelpers: Loading map 'Mail' took 0.088
+[2024.12.20-05.28.14:310][ 54]LogHttp: Warning: 00000266B5A5C100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB1E4FFB5-4F0B-C643-4219-5E9A62C0F9B7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=63278d284606777a8a506487b27920ac%7C2bea50b9c1814730b250c1f7e0313807%7C62b47508-8b87-494f-bd26-0cab2c3f7162&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.20-05.28.14:310][ 54]LogHttp: Warning: 00000266B5A5C100: request failed, libcurl error: 35 (SSL connect error)
+[2024.12.20-05.28.14:310][ 54]LogHttp: Warning: 00000266B5A5C100: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.12.20-05.28.14:310][ 54]LogHttp: Warning: 00000266B5A5C100: libcurl info message cache 1 (  Trying 52.54.230.139...)
+[2024.12.20-05.28.14:310][ 54]LogHttp: Warning: 00000266B5A5C100: libcurl info message cache 2 (TCP_NODELAY set)
+[2024.12.20-05.28.14:310][ 54]LogHttp: Warning: 00000266B5A5C100: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.54.230.139) port 443 (#1))
+[2024.12.20-05.28.14:310][ 54]LogHttp: Warning: 00000266B5A5C100: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2024.12.20-05.28.14:310][ 54]LogHttp: Warning: 00000266B5A5C100: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2024.12.20-05.28.14:310][ 54]LogHttp: Warning: 00000266B5A5C100: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.12.20-05.28.14:310][ 54]LogHttp: Warning: 00000266B5A5C100: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2024.12.20-05.28.14:310][ 54]LogHttp: Warning: 00000266B5A5C100: libcurl info message cache 8 (Closing connection 1)
+[2024.12.20-05.28.14:310][ 54]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB1E4FFB5-4F0B-C643-4219-5E9A62C0F9B7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=63278d284606777a8a506487b27920ac%7C2bea50b9c1814730b250c1f7e0313807%7C62b47508-8b87-494f-bd26-0cab2c3f7162&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.12.20-05.29.10:763][196]LogHttp: Warning: 00000266B5A77200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB1E4FFB5-4F0B-C643-4219-5E9A62C0F9B7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=63278d284606777a8a506487b27920ac%7C2bea50b9c1814730b250c1f7e0313807%7C62b47508-8b87-494f-bd26-0cab2c3f7162&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.20-05.29.10:763][196]LogHttp: Warning: 00000266B5A77200: request failed, libcurl error: 35 (SSL connect error)
+[2024.12.20-05.29.10:763][196]LogHttp: Warning: 00000266B5A77200: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.12.20-05.29.10:763][196]LogHttp: Warning: 00000266B5A77200: libcurl info message cache 1 (  Trying 44.210.213.190...)
+[2024.12.20-05.29.10:763][196]LogHttp: Warning: 00000266B5A77200: libcurl info message cache 2 (TCP_NODELAY set)
+[2024.12.20-05.29.10:763][196]LogHttp: Warning: 00000266B5A77200: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (44.210.213.190) port 443 (#2))
+[2024.12.20-05.29.10:763][196]LogHttp: Warning: 00000266B5A77200: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2024.12.20-05.29.10:763][196]LogHttp: Warning: 00000266B5A77200: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2024.12.20-05.29.10:763][196]LogHttp: Warning: 00000266B5A77200: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.12.20-05.29.10:763][196]LogHttp: Warning: 00000266B5A77200: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2024.12.20-05.29.10:763][196]LogHttp: Warning: 00000266B5A77200: libcurl info message cache 8 (Closing connection 2)
+[2024.12.20-05.29.10:763][196]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB1E4FFB5-4F0B-C643-4219-5E9A62C0F9B7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=63278d284606777a8a506487b27920ac%7C2bea50b9c1814730b250c1f7e0313807%7C62b47508-8b87-494f-bd26-0cab2c3f7162&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.12.20-05.30.08:684][369]LogHttp: Warning: 00000266B4920800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB1E4FFB5-4F0B-C643-4219-5E9A62C0F9B7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=63278d284606777a8a506487b27920ac%7C2bea50b9c1814730b250c1f7e0313807%7C62b47508-8b87-494f-bd26-0cab2c3f7162&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.20-05.30.08:684][369]LogHttp: Warning: 00000266B4920800: request failed, libcurl error: 35 (SSL connect error)
+[2024.12.20-05.30.08:684][369]LogHttp: Warning: 00000266B4920800: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.12.20-05.30.08:684][369]LogHttp: Warning: 00000266B4920800: libcurl info message cache 1 (  Trying 54.173.20.135...)
+[2024.12.20-05.30.08:684][369]LogHttp: Warning: 00000266B4920800: libcurl info message cache 2 (TCP_NODELAY set)
+[2024.12.20-05.30.08:684][369]LogHttp: Warning: 00000266B4920800: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (54.173.20.135) port 443 (#3))
+[2024.12.20-05.30.08:684][369]LogHttp: Warning: 00000266B4920800: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2024.12.20-05.30.08:684][369]LogHttp: Warning: 00000266B4920800: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2024.12.20-05.30.08:684][369]LogHttp: Warning: 00000266B4920800: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.12.20-05.30.08:684][369]LogHttp: Warning: 00000266B4920800: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2024.12.20-05.30.08:684][369]LogHttp: Warning: 00000266B4920800: libcurl info message cache 8 (Closing connection 3)
+[2024.12.20-05.30.09:020][370]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB1E4FFB5-4F0B-C643-4219-5E9A62C0F9B7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=63278d284606777a8a506487b27920ac%7C2bea50b9c1814730b250c1f7e0313807%7C62b47508-8b87-494f-bd26-0cab2c3f7162&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.12.20-05.31.15:205][267]LogHttp: Warning: 00000266B5A76B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB1E4FFB5-4F0B-C643-4219-5E9A62C0F9B7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=63278d284606777a8a506487b27920ac%7C2bea50b9c1814730b250c1f7e0313807%7C62b47508-8b87-494f-bd26-0cab2c3f7162&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.20-05.31.15:205][267]LogHttp: Warning: 00000266B5A76B00: request failed, libcurl error: 35 (SSL connect error)
+[2024.12.20-05.31.15:205][267]LogHttp: Warning: 00000266B5A76B00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.12.20-05.31.15:205][267]LogHttp: Warning: 00000266B5A76B00: libcurl info message cache 1 (  Trying 44.206.162.185...)
+[2024.12.20-05.31.15:205][267]LogHttp: Warning: 00000266B5A76B00: libcurl info message cache 2 (TCP_NODELAY set)
+[2024.12.20-05.31.15:205][267]LogHttp: Warning: 00000266B5A76B00: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (44.206.162.185) port 443 (#4))
+[2024.12.20-05.31.15:205][267]LogHttp: Warning: 00000266B5A76B00: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2024.12.20-05.31.15:205][267]LogHttp: Warning: 00000266B5A76B00: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2024.12.20-05.31.15:205][267]LogHttp: Warning: 00000266B5A76B00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.12.20-05.31.15:205][267]LogHttp: Warning: 00000266B5A76B00: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2024.12.20-05.31.15:205][267]LogHttp: Warning: 00000266B5A76B00: libcurl info message cache 8 (Closing connection 4)
+[2024.12.20-05.31.15:221][268]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB1E4FFB5-4F0B-C643-4219-5E9A62C0F9B7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=63278d284606777a8a506487b27920ac%7C2bea50b9c1814730b250c1f7e0313807%7C62b47508-8b87-494f-bd26-0cab2c3f7162&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.12.20-05.31.15:799][302]LogSlate: Window '플러그인' being destroyed
+[2024.12.20-05.31.15:803][302]LogSlate: Window '플러그인' being destroyed
+[2024.12.20-05.31.15:803][302]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2024.12.20-05.31.16:341][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mail" FILE="../../../../../../Users/SCHALE/Documents/GitHub/Unreal/Unreal_R4D2_Copy/Content/Mail.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.12.20-05.31.16:344][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2024.12.20-05.31.16:350][333]LogSavePackage: Moving '../../../../../../Users/SCHALE/Documents/GitHub/Unreal/Unreal_R4D2_Copy/Saved/MailFEE34F474CF51152347687AD6D197568.tmp' to '../../../../../../Users/SCHALE/Documents/GitHub/Unreal/Unreal_R4D2_Copy/Content/Mail.umap'
+[2024.12.20-05.31.16:353][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mail_BuiltData" FILE="../../../../../../Users/SCHALE/Documents/GitHub/Unreal/Unreal_R4D2_Copy/Content/Mail_BuiltData.uasset" SILENT=true
+[2024.12.20-05.31.16:364][333]LogSavePackage: Moving '../../../../../../Users/SCHALE/Documents/GitHub/Unreal/Unreal_R4D2_Copy/Saved/Mail_BuiltData05422E4A45D947548D0FC29E609CCCF7.tmp' to '../../../../../../Users/SCHALE/Documents/GitHub/Unreal/Unreal_R4D2_Copy/Content/Mail_BuiltData.uasset'
+[2024.12.20-05.31.16:372][333]AssetCheck: New page: 에셋 저장:  다수의 에셋
+[2024.12.20-05.31.16:372][333]LogContentValidation: Display: World /Game/Mail.Mail 유효성 검사 중
+[2024.12.20-05.31.16:372][333]LogContentValidation: Display: MapBuildDataRegistry /Game/Mail_BuiltData.Mail_BuiltData 유효성 검사 중
